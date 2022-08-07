@@ -1,6 +1,7 @@
 {
   "name": "Image info tab",
   "description": "Add image information to the tab where the image was opened",
+  "homepage_url": "https://github.com/yuta-hayashi/image-info-tab",
   "version": "1.0",
   "manifest_version": 3,
   "permissions": ["activeTab", "scripting"],
