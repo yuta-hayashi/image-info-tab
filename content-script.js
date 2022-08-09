@@ -9,9 +9,9 @@ const formatBytes = (bytes, decimals = 3) => {
 const addInfoElement = (width, height, type, fileSize) => {
   const div = document.createElement('div')
   const template = `
-  <span style='background-color: white; padding: 0.6rem;'>Width: ${width} px | Height: ${height} px | Type: ${type} | File size: ${formatBytes(
-    fileSize
-  )}</span>
+  <span style='background-color: white; padding: 0.6rem;'>Width: ${width} px | Height: ${height} px | Type: ${
+    type.split('/')[1]
+  } | File size: ${formatBytes(fileSize)}</span>
   `
   div.innerHTML = template
   document.body.insertBefore(div, document.body.firstChild)
