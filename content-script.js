@@ -18,9 +18,8 @@ const addInfoElement = (width, height, type, fileSize) => {
 }
 
 if (document.body.childElementCount == 1) {
-  const imgElements = document.getElementsByTagName('img')
-  const img = imgElements[0]
-  if (img) {
+  const img = document.body.children[0]
+  if (img.tagName == 'IMG') {
     const xhr = new XMLHttpRequest()
     xhr.open('GET', img.src, true)
     xhr.responseType = 'blob'
