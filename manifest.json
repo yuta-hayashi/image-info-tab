@@ -4,7 +4,6 @@
   "homepage_url": "https://github.com/yuta-hayashi/image-info-tab",
   "version": "1.0",
   "manifest_version": 3,
-  "permissions": ["activeTab", "scripting"],
   "icons": {
     "16": "/images/image-info-tab-icon-16x16.png",
     "32": "/images/image-info-tab-icon-32x32.png",
